@@ -9,20 +9,20 @@
 }
 
 :root {
-    /* Color Palette - Light Theme */
-    --primary-color: #2563eb;
-    --primary-dark: #1e40af;
-    --primary-light: #3b82f6;
-    --text-primary: #1f2937;
-    --text-secondary: #6b7280;
-    --text-light: #9ca3af;
+    /* Color Palette - Beige Theme with Improved Contrast */
+    --primary-color: #ddbca5;
+    --primary-dark: #b8916f;
+    --primary-light: #e8d1bc;
+    --text-primary: #2a2119;
+    --text-secondary: #4d4035;
+    --text-light: #73604f;
     --bg-primary: #ffffff;
-    --bg-secondary: #f9fafb;
-    --bg-accent: #f3f4f6;
-    --border-color: #e5e7eb;
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --bg-secondary: #faf7f3;
+    --bg-accent: #f0ebe5;
+    --border-color: #ddbca5;
+    --shadow-sm: 0 1px 2px 0 rgba(42, 33, 25, 0.08);
+    --shadow-md: 0 4px 6px -1px rgba(42, 33, 25, 0.12);
+    --shadow-lg: 0 10px 15px -3px rgba(42, 33, 25, 0.15);
 
     /* Typography */
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
@@ -485,7 +485,7 @@ section {
 .empty-state {
     text-align: center;
     padding: var(--spacing-2xl);
-    color: var(--text-light);
+    color: var(--text-secondary);
     font-style: italic;
 }
 
@@ -550,7 +550,7 @@ section {
 }
 
 .timeline-period {
-    color: var(--text-light);
+    color: var(--text-secondary);
     font-size: 0.9rem;
     margin-bottom: var(--spacing-md);
 }
@@ -629,19 +629,19 @@ section {
 }
 
 .contact-item p {
-    color: var(--text-secondary);
-    font-size: 0.85rem;
+    color: var(--text-primary);
+    font-size: 0.9rem;
     margin: 0;
 }
 
 .contact-item a {
-    color: var(--primary-color);
+    color: var(--text-primary);
     text-decoration: none;
     transition: color var(--transition-speed);
 }
 
 .contact-item a:hover {
-    color: var(--primary-dark);
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
@@ -657,8 +657,8 @@ section {
 }
 
 .footer p {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 0.95rem;
 }
 
 /* ===========================
