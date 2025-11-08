@@ -416,7 +416,10 @@ section {
 }
 
 .publications-list {
-    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -425,8 +428,9 @@ section {
     padding: var(--spacing-xl);
     border-radius: 12px;
     border: 1px solid var(--border-color);
-    margin-bottom: var(--spacing-lg);
     transition: all var(--transition-speed);
+    display: flex;
+    flex-direction: column;
 }
 
 .publication-item:hover {
@@ -757,6 +761,10 @@ section {
     }
 
     .expertise-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .publications-list {
         grid-template-columns: 1fr;
     }
 
